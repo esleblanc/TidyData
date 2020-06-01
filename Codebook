@@ -3,25 +3,24 @@ Codebook
 
 Data Information
 
-Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <br>
+Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-<p style="font-size:20px"> Script Detail </p>
+Script Detail
 
-Merges the training and the test sets to create one data set. <br>
-Extracts only the measurements on the mean and standard deviation for each measurement. <br>
-Uses descriptive activity names to name the activities in the data set <br>
-Appropriately labels the data set with descriptive activity names. <br>
-Creates a second, independent tidy data set with the average of each variable for each activity and each subject. <br>
+Merges the training and the test sets to create one data set.
+Extracts only the measurements on the mean and standard deviation for each measurement.
+Uses descriptive activity names to name the activities in the data set.
+Appropriately labels the data set with descriptive activity names.
+Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+Script Function
 
-<p style="font-size:20px"> Script Function </p>
-
-Load librairies dplyr and stringr <br>
-Load all data and create objects <br>
-Rename Columns for test and train (separately) to make data tidy <br>
-Rename Activity Labels for test and train <br>
-Create object that combines all test and all train data <br>
+Load librairies dplyr and stringr.
+Load all data and create objects.
+Rename Columns for test and train (separately) to make data tidy.
+Rename Activity Labels for test and train.
+Create object that combines all test and all train data.
 Merge both datasets
 Create new dataset of the mean of each variable for each activity and each subject
 
