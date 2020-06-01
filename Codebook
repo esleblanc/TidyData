@@ -1,7 +1,7 @@
 
-<p style="font-size:30px">Codebook</p>
+Codebook
 
-<p style="font-size:20px"> Data Information </p>
+Data Information
 
 Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip <br>
 Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
